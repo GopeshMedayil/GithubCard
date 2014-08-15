@@ -1,0 +1,23 @@
+{
+  "name": "Twitter Card",
+  "version": "0.0.0",
+  "authors": [
+    "GopeshMedayil <medayilgopesh@gmail.com>"
+  ],
+  "description": "Twitter card using polymer",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.3.5"
+  }
+}
