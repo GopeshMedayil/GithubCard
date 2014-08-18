@@ -1,4 +1,4 @@
-TwitterCard
+GithubCard
 ===========
 
-Twitter card using Polymer
+Github card using Polymer
