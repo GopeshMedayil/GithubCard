@@ -1,7 +1,7 @@
 <script src="/bower_components/platform/platform.js"></script>
 <link rel="import" href="/bower_components/polymer/polymer.html">
 <link rel="import" href="/bower_components/paper-elements/paper-elements.html">
-<polymer-element name="github-card" noscript>
+<polymer-element name="github-card" >
 
 <template>
   <style>
@@ -53,20 +53,26 @@ transition: all 1s ease-in-out;
   </style>
 
 <div class="main">
-  <div class="left" style="float:left;">
-  <paper-input label="Github Name" floatingLabel="true"></paper-input><br/>
-  <paper-button label="Send" raisedButton ></paper-button>
-</div>
-<div class="container" style="">
+    <div class="left" style="float:left;">
+        <paper-input label="Github Name" floatingLabel="true"></paper-input>
+        <br/>
+        <paper-button label="Send" raisedButton class="colored" on-tap="{{doSend}}"></paper-button>
+        
+    </div>
+    <div class="container" style="">
 
-  <div class="user-header">
-   <div class="user-img">
-   <img src="https://avatars2.githubusercontent.com/u/5499438?v=2" alt="">
+        <div class="user-header">
+            <div class="user-img">
+                <img src="https://avatars2.githubusercontent.com/u/5499438?v=2" alt="">
 
-   </div>
-  </div>
-</div>
+            </div>
+        </div>
+    </div>
 </div>
 </template>
-
+<script>
+Polymer('github-card',{
+  
+});
+</script>
 </polymer-element>
